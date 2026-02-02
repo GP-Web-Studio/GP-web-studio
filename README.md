@@ -291,10 +291,9 @@ Como desarrolladores en crecimiento, estamos constantemente:
 
 ¿Tienes un proyecto en mente? ¡Hablemos!
 
-- 📧 Email: [tu-email@gpwebstudio.com]
-- 🌐 Web: [tu-sitio-web.com]
-- 💼 LinkedIn: [tu-perfil]
-- 📱 WhatsApp: [tu-número]
+- 📧 Email: [gpwebstudio12@gmail.com]
+- 🌐 Web: [GPWebStudio.github.io]
+- 📱 WhatsApp: [+598 99259908]
 
 ---
 
