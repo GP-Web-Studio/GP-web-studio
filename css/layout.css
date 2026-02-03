@@ -292,5 +292,29 @@
 }
 
 .footer__bottom p {
-    margin-bottom: var(--space-2);
+    margin-bottom: var(--space-4);
+}
+
+.footer__dev-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-2);
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all var(--transition-base);
+    margin-top: var(--space-2);
+}
+
+.footer__dev-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.footer__dev-btn img {
+    width: 24px;
+    height: 24px;
+    display: block;
 }
