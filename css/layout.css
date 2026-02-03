@@ -318,3 +318,15 @@
     height: 24px;
     display: block;
 }
+
+.footer__dev-btn span {
+    margin-left: var(--space-2);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-300);
+    font-weight: var(--font-weight-medium);
+    transition: color var(--transition-base);
+}
+
+.footer__dev-btn:hover span {
+    color: var(--color-white);
+}
