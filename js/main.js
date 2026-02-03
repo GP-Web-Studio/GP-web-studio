@@ -115,7 +115,7 @@ if (contactForm) {
     const submitButton = this.querySelector('button[type="submit"]');
     if (submitButton) {
       const originalText = submitButton.textContent;
-      submitButton.textContent = "Enviando...";
+      submitButton.textContent = "Sending...";
       submitButton.disabled = true;
 
       // Re-enable after submission (Formspree will redirect or show message)
@@ -202,7 +202,7 @@ console.log(
   "color: #4A90E2; font-size: 24px; font-weight: bold;",
 );
 console.log(
-  "%cSitio desarrollado con ❤️ por GP Web Studio",
+  "%cSite developed with ❤️ by GP Web Studio",
   "color: #666; font-size: 12px;",
 );
 console.log(
