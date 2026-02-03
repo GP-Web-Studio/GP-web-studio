@@ -327,6 +327,10 @@ We thank all the tools and services that make our work possible:
 
 ### ⭐ If you like our work, don't forget to star our repositories
 
+<a href="https://github.com/p28Gamaliel" target="_blank">
+  <img src="https://cdn.simpleicons.org/github/181717" height="30" alt="GitHub" style="vertical-align: middle; margin-right: 8px;" /> <span style="vertical-align: middle; font-weight: bold; color: #333;">p28Gamaliel</span>
+</a>
+
 **Made with ❤️ by GP Web Studio**
 
 [🔝 Back to top](#-gp-web-studio)

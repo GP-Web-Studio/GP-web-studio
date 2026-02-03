@@ -35,8 +35,10 @@
     color: var(--color-gray-900);
 }
 
-.logo-icon {
-    font-size: var(--font-size-2xl);
+.logo-img {
+    height: 35px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav__menu {
