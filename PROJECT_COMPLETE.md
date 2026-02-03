@@ -1,231 +1,231 @@
-# 🎉 Proyecto Completado: GP Web Studio
+# 🎉 Project Completed: GP Web Studio
 
-## ✅ Resumen del Proyecto
+## ✅ Project Summary
 
-Se ha creado exitosamente la landing page profesional para **GP Web Studio** con una estructura modular completa y lista para desplegar.
+The professional landing page for **GP Web Studio** has been successfully created with a complete modular structure ready to deploy.
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
 GP-web-studio/
-├── index.html                  # Página principal
+├── index.html                  # Main page
 ├── css/
-│   ├── variables.css          # Tokens de diseño (colores, fuentes, espaciado)
-│   ├── reset.css              # Reset CSS moderno
-│   ├── utilities.css          # Clases utilitarias
-│   ├── components.css         # Estilos de componentes
-│   ├── layout.css             # Layouts principales
-│   └── responsive.css         # Media queries y responsive
+│   ├── variables.css          # Design tokens (colors, fonts, spacing)
+│   ├── reset.css              # Modern CSS reset
+│   ├── utilities.css          # Utility classes
+│   ├── components.css         # Component styles
+│   ├── layout.css             # Main layouts
+│   └── responsive.css         # Media queries and responsive styles
 ├── js/
-│   └── main.js                # Funcionalidad JavaScript
+│   └── main.js                # JavaScript functionality
 ├── images/
-│   └── portfolio-servigroup.jpg  # Imagen de ejemplo del portfolio
-├── netlify.toml               # Configuración de Netlify
-├── .gitignore                 # Archivos ignorados por Git
-├── README.md                  # Documentación principal
-├── FORMSPREE_SETUP.md         # Guía de configuración de formularios
-└── DEPLOY_GUIDE.md            # Guía de despliegue
+│   └── portfolio-servigroup.jpg  # Example portfolio image
+├── netlify.toml               # Netlify configuration
+├── .gitignore                 # Files ignored by Git
+├── README.md                  # Main documentation
+├── FORMSPREE_SETUP.md         # Form configuration guide
+└── DEPLOY_GUIDE.md            # Deployment guide
 
 ```
 
-## 🎨 Características Implementadas
+## 🎨 Implemented Features
 
-### Diseño y Estética
+### Design and Aesthetics
 
-- ✅ Paleta de colores moderna (azules y morados vibrantes)
-- ✅ Tipografía Google Fonts (Inter)
-- ✅ Gradientes y efectos visuales atractivos
-- ✅ Diseño totalmente responsive
-- ✅ Animaciones suaves y micro-interacciones
+- ✅ Modern color palette (vibrant blues and purples)
+- ✅ Google Fonts typography (Inter)
+- ✅ Attractive gradients and visual effects
+- ✅ Fully responsive design
+- ✅ Smooth animations and micro-interactions
 
-### Secciones Completas
+### Complete Sections
 
-1. **Hero Section** - Con estadísticas y CTAs
-2. **Servicios** - 6 tarjetas de servicios con card destacada
-3. **Proceso** - Timeline de 5 pasos
-4. **Portfolio** - Cards para proyectos (incluye ServigroupLLC)
-5. **Precios** - 3 planes (Básico, Estándar, Premium)
-6. **Contacto** - Formulario completo con Formspree
-7. **Footer** - Con links y branding
+1. **Hero Section** - With statistics and CTAs
+2. **Services** - 6 service cards with featured card
+3. **Process** - 5-step timeline
+4. **Portfolio** - Project cards (includes ServigroupLLC)
+5. **Pricing** - 3 plans (Basic, Standard, Premium)
+6. **Contact** - Complete form with Formspree
+7. **Footer** - With links and branding
 
-### Funcionalidades JavaScript
+### JavaScript Functionalities
 
-- ✅ Navegación móvil hamburger
-- ✅ Scroll suave en links de anclaje
-- ✅ Resaltado de link activo al hacer scroll
-- ✅ Botón "volver arriba"
-- ✅ Animaciones al hacer scroll
-- ✅ Validación de formulario
-- ✅ Header con efecto al hacer scroll
+- ✅ Mobile hamburger navigation
+- ✅ Smooth scrolling on anchor links
+- ✅ Active link highlighting on scroll
+- ✅ "Back to top" button
+- ✅ Scroll animations
+- ✅ Form validation
+- ✅ Header scroll effect
 
-### Sistema CSS Modular
+### Modular CSS System
 
-- ✅ Variables CSS para todo el sistema de diseño
-- ✅ Reset moderno con mejores prácticas
-- ✅ Utilidades reutilizables
-- ✅ Componentes separados
-- ✅ Layouts específicos
-- ✅ Responsive completo
+- ✅ CSS variables for the entire design system
+- ✅ Modern reset with best practices
+- ✅ Reusable utilities
+- ✅ Separated components
+- ✅ Specific layouts
+- ✅ Full responsive
 
-## 🚀 Próximos Pasos
+## 🚀 Next Steps
 
-### 1. Configurar Formspree (5 minutos)
+### 1. Configure Formspree (5 minutes)
 
 ```
-1. Ir a formspree.io y crear cuenta
-2. Crear nuevo formulario
-3. Copiar el Form ID
-4. En index.html línea 387, reemplazar YOUR_FORM_ID
+1. Go to formspree.io and create an account
+2. Create a new form
+3. Copy the Form ID
+4. In index.html line 387, replace YOUR_FORM_ID
 ```
 
-### 2. Desplegar en Netlify (10 minutos)
+### 2. Deploy to Netlify (10 minutes)
 
 ```bash
-# Subir a GitHub
+# Upload to GitHub
 git init
 git add .
 git commit -m "Initial commit: GP Web Studio"
-git remote add origin https://github.com/TU-USUARIO/GP-web-studio.git
+git remote add origin https://github.com/YOUR-USERNAME/GP-web-studio.git
 git push -u origin main
 
-# Luego conectar con Netlify (ver DEPLOY_GUIDE.md)
+# Then connect with Netlify (see DEPLOY_GUIDE.md)
 ```
 
-### 3. Personalizaciones Opcionales
+### 3. Optional Customizations
 
-- [ ] Cambiar información de contacto en el footer
-- [ ] Agregar más proyectos al portfolio
-- [ ] Actualizar precios según tu mercado objetivo
-- [ ] Agregar Google Analytics
-- [ ] Configurar dominio personalizado
+- [ ] Change contact information in the footer
+- [ ] Add more projects to the portfolio
+- [ ] Update prices according to your target market
+- [ ] Add Google Analytics
+- [ ] Configure custom domain
 
-## 📊 Tecnologías Utilizadas
+## 📊 Technologies Used
 
-| Tecnología           | Propósito                      |
-| -------------------- | ------------------------------ |
-| HTML5                | Estructura semántica           |
-| CSS3                 | Estilos modernos con variables |
-| JavaScript (Vanilla) | Interactividad sin frameworks  |
-| Formspree            | Gestión de formularios         |
-| Netlify              | Hosting y despliegue           |
-| Git/GitHub           | Control de versiones           |
+| Technology           | Purpose                          |
+| -------------------- | -------------------------------- |
+| HTML5                | Semantic structure               |
+| CSS3                 | Modern styles with variables     |
+| JavaScript (Vanilla) | Interactivity without frameworks |
+| Formspree            | Form management                  |
+| Netlify              | Hosting and deployment           |
+| Git/GitHub           | Version control                  |
 
-## 🎯 Optimizaciones Incluidas
+## 🎯 Included Optimizations
 
 ### Performance
 
-- ✅ CSS modular para menor tamaño
-- ✅ Carga asíncrona de fuentes
-- ✅ Imágenes con lazy loading
-- ✅ Transiciones optimizadas
+- ✅ Modular CSS for smaller size
+- ✅ Asynchronous font loading
+- ✅ Lazy loading images
+- ✅ Optimized transitions
 
 ### SEO
 
-- ✅ Meta tags completos
+- ✅ Complete meta tags
 - ✅ Open Graph tags
-- ✅ Estructura semántica HTML5
-- ✅ Headings jerárquicos correctos
-- ✅ Alt text en imágenes
+- ✅ HTML5 semantic structure
+- ✅ Correct hierarchical headings
+- ✅ Alt text on images
 
-### Accesibilidad
+### Accessibility
 
-- ✅ ARIA labels donde necesario
-- ✅ Navegación por teclado
-- ✅ Contraste de colores adecuado
-- ✅ Focus states visibles
+- ✅ ARIA labels where necessary
+- ✅ Keyboard navigation
+- ✅ Adequate color contrast
+- ✅ Visible focus states
 
-## 💡 Cómo Usar Este Proyecto
+## 💡 How to Use This Project
 
-### Vista Previa Local
+### Local Preview
 
 ```bash
-# Opción 1: Abrir directamente
-# Doble clic en index.html
+# Option 1: Open directly
+# Double click on index.html
 
-# Opción 2: Con servidor local (recomendado)
-# Si tienes Python instalado:
+# Option 2: With local server (recommended)
+# If you have Python installed:
 python -m http.server 8000
 
-# Si tienes Node.js:
+# If you have Node.js:
 npx serve .
 
-# Luego visita: http://localhost:8000
+# Then visit: http://localhost:8000
 ```
 
-### Editar Contenido
+### Editing Content
 
-Los archivos principales para editar son:
+The main files to edit are:
 
-- `index.html` - Texto y contenido
-- `css/variables.css` - Colores y espaciado
-- `images/` - Agregar tus propias imágenes
+- `index.html` - Text and content
+- `css/variables.css` - Colors and spacing
+- `images/` - Add your own images
 
-## 🎨 Paleta de Colores
+## 🎨 Color Palette
 
 ```css
-Primario: hsl(220, 90%, 56%)  /* Azul vibrante */
-Secundario: hsl(280, 85%, 60%) /* Morado */
-Acento: hsl(340, 82%, 58%)     /* Rosa */
+Primary: hsl(220, 90%, 56%)    /* Vibrant blue */
+Secondary: hsl(280, 85%, 60%)  /* Purple */
+Accent: hsl(340, 82%, 58%)     /* Pink */
 ```
 
 ## 📱 Testing
 
-### Vista Previa Responsiva
+### Responsive Preview
 
-Probar en:
+Test on:
 
 - [ ] Chrome/Edge (Desktop)
 - [ ] Firefox (Desktop)
-- [ ] Safari (si tienes Mac)
+- [ ] Safari (if you have Mac)
 - [ ] Chrome Mobile (Android)
 - [ ] Safari Mobile (iOS)
 - [ ] Tablet (768px - 1024px)
 
-### Funcionalidades
+### Functionalities
 
-- [ ] Navegación móvil funciona
-- [ ] Todos los links internos funcionan
-- [ ] Formulario envía correctamente
-- [ ] Animaciones se ven suaves
-- [ ] Back to top button aparece al hacer scroll
+- [ ] Mobile navigation works
+- [ ] All internal links work
+- [ ] Form sends correctly
+- [ ] Animations look smooth
+- [ ] Back to top button appears on scroll
 
-## 🆘 Soporte
+## 🆘 Support
 
-Si encuentras algún problema:
+If you find any problem:
 
-1. Revisa DEPLOY_GUIDE.md
-2. Revisa FORMSPREE_SETUP.md
-3. Verifica la consola del navegador (F12)
+1. Check DEPLOY_GUIDE.md
+2. Check FORMSPREE_SETUP.md
+3. Check the browser console (F12)
 
-## 📈 Mejoras Futuras Sugeridas
+## 📈 Suggested Future Improvements
 
-1. **Blog Section** - Para SEO y contenido
-2. **Testimonios** - Slider de reseñas
-3. **Galería de Proyectos** - Más ejemplos
-4. **Chat en Vivo** - Integración con WhatsApp Business
-5. **Multi-idioma** - Español/Inglés
-6. **Dark Mode** - Tema oscuro opcional
+1. **Blog Section** - For SEO and content
+2. **Testimonials** - Review slider
+3. **Project Gallery** - More examples
+4. **Live Chat** - Integration with WhatsApp Business
+5. **Multi-language** - Spanish/English
+6. **Dark Mode** - Optional dark theme
 
-## ✨ Características Premium a Considerar
+## ✨ Premium Features to Consider
 
-- 🔄 Animaciones avanzadas con GSAP
-- 📊 Dashboard de analytics
-- 🎨 Constructor de páginas
-- 🤖 Chatbot con IA
+- 🔄 Advanced animations with GSAP
+- 📊 Analytics dashboard
+- 🎨 Page builder
+- 🤖 AI chatbot
 - 📧 Newsletter automation
 
 ---
 
-## 🎉 ¡Proyecto Listo!
+## 🎉 Project Ready!
 
-Tu sitio web está **100% funcional** y listo para desplegar. Solo necesitas:
+Your website is **100% functional** and ready to deploy. You just need to:
 
-1. Configurar Formspree (5 min)
-2. Subir a GitHub (5 min)
-3. Conectar con Netlify (5 min)
+1. Configure Formspree (5 min)
+2. Upload to GitHub (5 min)
+3. Connect with Netlify (5 min)
 
-**Total: 15 minutos para estar en línea** 🚀
+**Total: 15 minutes to be online** 🚀
 
 ---
 
-**Creado con ❤️ por GP Web Studio**
+**Created with ❤️ by GP Web Studio**

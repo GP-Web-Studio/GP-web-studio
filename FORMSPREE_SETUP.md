@@ -1,25 +1,25 @@
-# Configuración del Formulario de Contacto
+# Contact Form Configuration
 
-## Instrucciones para Formspree
+## Instructions for Formspree
 
-Para que el formulario de contacto funcione correctamente, necesitas configurar Formspree:
+For the contact form to work correctly, you need to configure Formspree:
 
-### Paso 1: Crear Cuenta en Formspree
+### Step 1: Create Account on Formspree
 
-1. Ve a [formspree.io](https://formspree.io/)
-2. Crea una cuenta gratuita
-3. El plan gratuito permite hasta 50 envíos por mes
+1. Go to [formspree.io](https://formspree.io/)
+2. Create a free account
+3. The free plan allows up to 50 submissions per month
 
-### Paso 2: Obtener tu Form ID
+### Step 2: Get your Form ID
 
-1. Una vez dentro, crea un nuevo formulario
-2. Formspree te dará un ID único que se ve así: `xpznabcd`
-3. La URL completa será: `https://formspree.io/f/xpznabcd`
+1. Once inside, create a new form
+2. Formspree will give you a unique ID that looks like this: `xpznabcd`
+3. The full URL will be: `https://formspree.io/f/xpznabcd`
 
-### Paso 3: Actualizar index.html
+### Step 3: Update index.html
 
-1. Abre el archivo `index.html`
-2. Busca la línea que dice:
+1. Open the file `index.html`
+2. Find the line that says:
    ```html
    <form
      class="contact__form"
@@ -28,9 +28,9 @@ Para que el formulario de contacto funcione correctamente, necesitas configurar 
      method="POST"
    ></form>
    ```
-3. Reemplaza `YOUR_FORM_ID` con tu ID real de Formspree
+3. Replace `YOUR_FORM_ID` with your real Formspree ID
 
-### Ejemplo:
+### Example:
 
 ```html
 <form
@@ -41,32 +41,32 @@ Para que el formulario de contacto funcione correctamente, necesitas configurar 
 ></form>
 ```
 
-### Paso 4: Configuración Adicional
+### Step 4: Additional Configuration
 
-En el panel de Formspree puedes configurar:
+In the Formspree panel you can configure:
 
-- Email de destino donde recibirás los mensajes
-- Página de confirmación personalizada
-- Auto-respuesta al usuario
-- Protección anti-spam (reCAPTCHA)
+- Destination email where you will receive messages
+- Custom confirmation page
+- Auto-response to the user
+- Anti-spam protection (reCAPTCHA)
 
-### Alternativa: Email Directo
+### Alternative: Direct Email
 
-Si prefieres usar tu propio email sin Formspree:
+If you prefer to use your own email without Formspree:
 
-1. Puedes usar Netlify Forms (gratis con Netlify)
-2. Solo añade `netlify` al tag del form:
+1. You can use Netlify Forms (free with Netlify)
+2. Just add `netlify` to the form tag:
    ```html
    <form name="contact" netlify></form>
    ```
 
-## Verificación
+## Verification
 
-Una vez configurado:
+Once configured:
 
-1. Abre tu sitio web
-2. Llena el formulario
-3. Envía un mensaje de prueba
-4. Verifica que recibiste el email
+1. Open your website
+2. Fill out the form
+3. Send a test message
+4. Verify that you received the email
 
-¡Listo! Tu formulario estará funcionando.
+Ready! Your form will be working.

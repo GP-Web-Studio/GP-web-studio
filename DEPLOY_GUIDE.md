@@ -1,71 +1,71 @@
-# Guía de Despliegue en Netlify
+# Netlify Deployment Guide
 
-## 📋 Requisitos Previos
+## 📋 Prerequisites
 
-- Cuenta en GitHub
-- Cuenta en Netlify (gratis en [netlify.com](https://www.netlify.com/))
-- Tu proyecto subido a GitHub
+- GitHub Account
+- Netlify Account (free at [netlify.com](https://www.netlify.com/))
+- Your project uploaded to GitHub
 
-## 🚀 Pasos para Desplegar
+## 🚀 Steps to Deploy
 
-### 1. Subir tu Proyecto a GitHub
+### 1. Upload your Project to GitHub
 
 ```bash
-# Inicializa git si no lo has hecho
+# Initialize git if you haven't already
 git init
 
-# Añade todos los archivos
+# Add all files
 git add .
 
-# Haz tu primer commit
+# Make your first commit
 git commit -m "Initial commit: GP Web Studio website"
 
-# Conecta con tu repositorio de GitHub
-git remote add origin https://github.com/TU-USUARIO/GP-web-studio.git
+# Connect with your GitHub repository
+git remote add origin https://github.com/YOUR-USERNAME/GP-web-studio.git
 
-# Sube los archivos
+# Push the files
 git push -u origin main
 ```
 
-### 2. Conectar con Netlify
+### 2. Connect with Netlify
 
-1. Ve a [app.netlify.com](https://app.netlify.com/)
-2. Haz clic en **"Add new site"** → **"Import an existing project"**
-3. Selecciona **GitHub**
-4. Autoriza a Netlify para acceder a tus repositorios
-5. Selecciona el repositorio **GP-web-studio**
+1. Go to [app.netlify.com](https://app.netlify.com/)
+2. Click on **"Add new site"** → **"Import an existing project"**
+3. Select **GitHub**
+4. Authorize Netlify to access your repositories
+5. Select the **GP-web-studio** repository
 
-### 3. Configurar el Deploy
+### 3. Configure the Deploy
 
-En la pantalla de configuración:
+In the configuration screen:
 
 - **Branch to deploy**: `main`
-- **Build command**: (dejar vacío)
-- **Publish directory**: `.` o dejar vacío
-- Haz clic en **"Deploy site"**
+- **Build command**: (leave empty)
+- **Publish directory**: `.` or leave empty
+- Click on **"Deploy site"**
 
-### 4. Configuración del Dominio
+### 4. Domain Configuration
 
-Una vez desplegado:
+Once deployed:
 
-- Netlify te dará una URL como: `https://random-name-123.netlify.app`
-- Puedes cambiar el nombre en: **Site settings** → **Change site name**
-- Sugerencia: `gpwebstudio.netlify.app`
+- Netlify will give you a URL like: `https://random-name-123.netlify.app`
+- You can change the name in: **Site settings** → **Change site name**
+- Suggestion: `gpwebstudio.netlify.app`
 
-### 5. Configurar Dominio Personalizado (Opcional)
+### 5. Configure Custom Domain (Optional)
 
-Si tienes un dominio propio:
+If you have your own domain:
 
-1. Ve a **Domain settings** → **Add custom domain**
-2. Ingresa tu dominio (ej: `gpwebstudio.com`)
-3. Sigue las instrucciones para configurar los DNS
-4. Netlify proveerá SSL gratis automáticamente
+1. Go to **Domain settings** → **Add custom domain**
+2. Enter your domain (e.g., `gpwebstudio.com`)
+3. Follow the instructions to configure the DNS
+4. Netlify will provide free SSL automatically
 
-## 📧 Configurar Formularios
+## 📧 Configure Forms
 
-### Opción 1: Netlify Forms (Recomendado)
+### Option 1: Netlify Forms (Recommended)
 
-1. En tu `index.html`, modifica el form:
+1. In your `index.html`, modify the form:
    ```html
    <form
      name="contact"
@@ -74,59 +74,59 @@ Si tienes un dominio propio:
      netlify-honeypot="bot-field"
    ></form>
    ```
-2. Añade un campo oculto:
+2. Add a hidden field:
    ```html
    <input type="hidden" name="form-name" value="contact" />
    ```
-3. Los mensajes llegarán a tu email asociado a Netlify
+3. Messages will arrive at your email associated with Netlify
 
-### Opción 2: Formspree
+### Option 2: Formspree
 
-Sigue las instrucciones en `FORMSPREE_SETUP.md`
+Follow the instructions in `FORMSPREE_SETUP.md`
 
-## 🔄 Actualizaciones Automáticas
+## 🔄 Automatic Updates
 
-Cada vez que hagas push a GitHub, Netlify desplegará automáticamente:
+Every time you push to GitHub, Netlify will automatically deploy:
 
 ```bash
 git add .
-git commit -m "Actualización de contenido"
+git commit -m "Content update"
 git push
 ```
 
-## ✅ Verificación Post-Deploy
+## ✅ Post-Deploy Verification
 
-- [ ] El sitio carga correctamente
-- [ ] Todas las secciones son visibles
-- [ ] Los enlaces de navegación funcionan
-- [ ] El formulario envía mensajes
-- [ ] El sitio es responsive en móvil
-- [ ] Las imágenes cargan bien
+- [ ] The site loads correctly
+- [ ] All sections are visible
+- [ ] Navigation links work
+- [ ] The form sends messages
+- [ ] The site is responsive on mobile
+- [ ] Images load well
 
-## 🐛 Solución de Problemas
+## 🐛 Troubleshooting
 
-### El sitio no despliega
+### The site does not deploy
 
-- Verifica que no haya errores en los archivos
-- Revisa los logs en Netlify Dashboard
+- Verify that there are no errors in the files
+- Check the logs in the Netlify Dashboard
 
-### Los estilos no se ven
+### Styles are not valid
 
-- Verifica que las rutas de CSS sean correctas
-- Las rutas deben ser relativas: `css/styles.css`
+- Verify that CSS paths are correct
+- Paths must be relative: `css/styles.css`
 
-### El formulario no funciona
+### The form does not work
 
-- Verifica la configuración de Formspree
-- O usa Netlify Forms como alternativa
+- Verify the Formspree configuration
+- Or use Netlify Forms as an alternative
 
-## 📊 Monitoreo
+## 📊 Monitoring
 
-En Netlify Dashboard puedes ver:
+In Netlify Dashboard you can see:
 
-- Cantidad de visitantes
-- Envíos de formularios
-- Performance del sitio
-- Logs de deploy
+- Number of visitors
+- Form submissions
+- Site performance
+- Deploy logs
 
-¡Tu sitio estará en línea en minutos! 🎉
+Your site will be online in minutes! 🎉

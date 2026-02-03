@@ -4,7 +4,7 @@
 
 ![GP Web Studio Logo](images/gp-logo.jpg)
 
-**Creando experiencias web modernas, simples y efectivas**
+**Creating modern, simple, and effective web experiences**
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
   <img src="https://cdn.simpleicons.org/html5/E34F26" height="50" alt="HTML5 Logo" />
@@ -26,280 +26,280 @@
 
 ---
 
-## 👋 Sobre Nosotros
+## 👋 About Us
 
-**GP Web Studio** es un estudio de desarrollo web especializado en la creación de **landing pages** y **páginas informativas** modernas, con diseños limpios, funcionales y atractivos.
+**GP Web Studio** is a web development studio specialized in creating **landing pages** and **informative pages** that are modern, clean, functional, and attractive.
 
-Nos enfocamos en ofrecer soluciones web que combinan **simplicidad visual** con **funcionalidad efectiva**, perfectas para pequeñas y medianas empresas que buscan establecer su presencia digital de manera profesional.
-
----
-
-## ✨ Lo Que Hacemos
-
-- 🎨 **Landing Pages Modernas** - Diseños atractivos que capturan la atención
-- 📄 **Páginas Informativas** - Sitios web claros y profesionales para tu negocio
-- 📱 **Diseño Responsive** - Perfecto en todos los dispositivos
-- 📧 **Formularios Integrados** - Contacto directo con tus clientes vía Formspree
-- 🚀 **Despliegue Rápido** - Hosting optimizado en GitHub Pages
-- 🎯 **Diseño Simple pero Efectivo** - Interfaces limpias y fáciles de usar
+We focus on offering web solutions that combine **visual simplicity** with **effective functionality**, perfect for small and medium-sized businesses looking to establish their digital presence professionally.
 
 ---
 
-## 🛠️ Tecnologías que Utilizamos
+## ✨ What We Do
+
+- 🎨 **Modern Landing Pages** - Attractive designs that capture attention
+- 📄 **Informative Pages** - Clear and professional websites for your business
+- 📱 **Responsive Design** - Perfect on all devices
+- 📧 **Integrated Forms** - Direct contact with your clients via Formspree
+- 🚀 **Fast Deployment** - Optimized hosting on GitHub Pages
+- 🎯 **Simple but Effective Design** - Clean and easy-to-use interfaces
+
+---
+
+## 🛠️ Technologies We Use
 
 ```text
 Frontend
-├── HTML5          → Estructura semántica y accesible
-├── CSS3           → Estilos modernos y responsivos
-└── JavaScript     → Interactividad y funcionalidad
+├── HTML5          → Semantic and accessible structure
+├── CSS3           → Modern and responsive styles
+└── JavaScript     → Interactivity and functionality
 
-Servicios
-├── Formspree.io   → Gestión de formularios sin backend
-├── GitHub Pages   → Hosting y despliegue continuo
-└── Git/GitHub     → Control de versiones
+Services
+├── Formspree.io   → Form management without backend
+├── GitHub Pages   → Hosting and continuous deployment
+└── Git/GitHub     → Version control
 ```
 
 ---
 
-## 🎯 Nuestro Enfoque
+## 🎯 Our Approach
 
-### Diseño Simple y Moderno
+### Simple and Modern Design
 
-Creamos sitios web que son **visualmente atractivos** pero **fáciles de navegar**. Nuestro lema es: _"Linda pero simple a la vista humana"_.
+We create websites that are **visually attractive** but **easy to navigate**. Our motto is: _"Beautiful but simple to the human eye"_.
 
-### Funcionalidad Clara
+### Clear Functionality
 
-Cada elemento tiene un propósito. Implementamos:
+Every element has a purpose. We implement:
 
-- ✅ Formularios de contacto funcionales
-- ✅ Navegación intuitiva
-- ✅ Llamadas a la acción efectivas
-- ✅ Optimización para conversión
+- ✅ Functional contact forms
+- ✅ Intuitive navigation
+- ✅ Effective calls to action
+- ✅ Optimization for conversion
 
-### Rapidez y Eficiencia
+### Speed and Efficiency
 
-- ⚡ Carga rápida de páginas
-- 🔄 Despliegue automático
-- 📊 SEO optimizado
+- ⚡ Fast page loading
+- 🔄 Automatic deployment
+- 📊 Optimized SEO
 
 ---
 
-## 💼 Ejemplo de Nuestro Trabajo
+## 💼 Example of Our Work
 
 ### [A&A SERVIGROUP LLC](https://servigroupllc.com/)
 
-Sitio web profesional para empresa de servicios de limpieza. Incluye:
+Professional website for a cleaning services company. Includes:
 
-- Diseño moderno y limpio
-- Secciones de servicios bien organizadas
-- Formulario de contacto integrado
-- Diseño totalmente responsive
-- Optimizado para conversión de clientes
+- Modern and clean design
+- Well-organized services sections
+- Integrated contact form
+- Fully responsive design
+- Optimized for client conversion
 
 ---
 
-## 📦 Estructura de Nuestros Proyectos
+## 📦 Project Structure
 
 ```
-proyecto/
+project/
 │
-├── index.html              # Página principal
+├── index.html              # Main page
 ├── css/
-│   ├── styles.css         # Estilos principales
+│   ├── styles.css         # Main styles
 │   └── responsive.css     # Media queries
 ├── js/
-│   └── main.js            # Funcionalidad JavaScript
-├── images/                 # Recursos visuales
-├── README.md              # Documentación del proyecto
-└── .github/           # Configuración de despliegue
+│   └── main.js            # JavaScript functionality
+├── images/                 # Visual resources
+├── README.md              # Project documentation
+└── .github/           # Deployment configuration
 ```
 
 ---
 
-## 🚀 Proceso de Desarrollo
+## 🚀 Development Process
 
-1. **📋 Planificación**
-   - Entendemos las necesidades del cliente
-   - Definimos objetivos y estructura
+1. **📋 Planning**
+   - We understand the client's needs
+   - We define objectives and structure
 
-2. **🎨 Diseño**
-   - Creamos mockups simples y modernos
-   - Seleccionamos paleta de colores
+2. **🎨 Design**
+   - We create simple and modern mockups
+   - We select a color palette
 
-3. **💻 Desarrollo**
-   - Codificación limpia y semántica
-   - Implementación responsive
+3. **💻 Development**
+   - Clean and semantic coding
+   - Responsive implementation
 
-4. **🔗 Integración**
-   - Configuración de Formspree para formularios
-   - Preparación para GitHub Pages
+4. **🔗 Integration**
+   - Formspree configuration for forms
+   - Preparation for GitHub Pages
 
-5. **🚀 Despliegue**
-   - Deployment en GitHub Pages
-   - Configuración de dominio personalizado
+5. **🚀 Deployment**
+   - Deployment on GitHub Pages
+   - Custom domain configuration
 
-6. **✅ Entrega**
-   - Pruebas finales
-   - Documentación para el cliente
-
----
-
-## 📧 Características de Formularios
-
-Todos nuestros formularios están integrados con **Formspree.io** para:
-
-- ✉️ Recepción directa de mensajes al email
-- 🔒 Protección anti-spam
-- 📱 Notificaciones instantáneas
-- 🎯 Sin necesidad de backend
+6. **✅ Delivery**
+   - Final tests
+   - Documentation for the client
 
 ---
 
-## 🌐 Despliegue con GitHub Pages
+## 📧 Form Features
 
-Utilizamos GitHub Pages para hosting porque ofrece:
+All our forms are integrated with **Formspree.io** for:
 
-- ⚡ CDN global para velocidad óptima
-- 🔄 Despliegue automático desde GitHub
-- 🆓 Plan gratuito generoso
-- 🔒 HTTPS automático
-- ⚡ Integración directa con el repositorio
+- ✉️ Direct message reception to email
+- 🔒 Anti-spam protection
+- 📱 Instant notifications
+- 🎯 No backend needed
+
+---
+
+## 🌐 Deployment with GitHub Pages
+
+We use GitHub Pages for hosting because it offers:
+
+- ⚡ Global CDN for optimal speed
+- 🔄 Automatic deployment from GitHub
+- 🆓 Generous free plan
+- 🔒 Automatic HTTPS
+- ⚡ Direct integration with the repository
 
 ---
 
 ## 📱 Responsive Design
 
-Todos nuestros sitios están optimizados para:
+All our sites are optimized for:
 
-| Dispositivo | Breakpoint     | Optimización           |
-| ----------- | -------------- | ---------------------- |
-| 📱 Mobile   | < 768px        | Navegación táctil      |
-| 📱 Tablet   | 768px - 1024px | Layout adaptativo      |
-| 💻 Desktop  | > 1024px       | Máximo aprovechamiento |
-
----
-
-## 🎨 Elementos de Diseño
-
-Nuestros sitios incluyen:
-
-- 🎯 **Botones llamativos** - CTA claros y atractivos
-- 🖼️ **Imágenes optimizadas** - Carga rápida sin perder calidad
-- 🎨 **Paletas modernas** - Colores profesionales
-- ✨ **Animaciones sutiles** - Interacciones agradables
-- 📐 **Layouts limpios** - Espacios bien distribuidos
+| Device     | Breakpoint     | Optimization        |
+| ---------- | -------------- | ------------------- |
+| 📱 Mobile  | < 768px        | Touch navigation    |
+| 📱 Tablet  | 768px - 1024px | Adaptive layout     |
+| 💻 Desktop | > 1024px       | Maximum utilization |
 
 ---
 
-## 💡 Filosofía de Trabajo
+## 🎨 Design Elements
 
-> "Creemos en la belleza de la simplicidad. Un sitio web no necesita ser complicado para ser efectivo. Nuestro objetivo es crear experiencias digitales que sean hermosas, funcionales y accesibles para todos."
+Our sites include:
 
-### Principios Clave:
-
-1. **Simplicidad** - Menos es más
-2. **Funcionalidad** - Todo tiene un propósito
-3. **Modernidad** - Diseños actuales
-4. **Accesibilidad** - Fácil de usar para todos
-5. **Performance** - Rápido y eficiente
+- 🎯 **Striking Buttons** - Clear and attractive CTAs
+- 🖼️ **Optimized Images** - Fast loading without losing quality
+- 🎨 **Modern Palettes** - Professional colors
+- ✨ **Subtle Animations** - Pleasant interactions
+- 📐 **Clean Layouts** - Well-distributed spaces
 
 ---
 
-## 📞 Cómo Trabajamos con Clientes
+## 💡 Work Philosophy
 
-1. **Consulta Inicial** - Escuchamos tus necesidades
-2. **Propuesta** - Definimos alcance y presupuesto
-3. **Desarrollo** - Creamos tu sitio web
-4. **Revisiones** - Ajustamos según feedback
-5. **Lanzamiento** - Publicamos tu sitio
-6. **Soporte** - Te acompañamos post-lanzamiento
+> "We believe in the beauty of simplicity. A website doesn't need to be complicated to be effective. Our goal is to create digital experiences that are beautiful, functional, and accessible to all."
 
----
+### Key Principles:
 
-## 🔧 Servicios Adicionales
-
-- 🎨 Selección de paleta de colores
-- 📝 Optimización de contenido
-- 🔍 SEO básico
-- 📊 Configuración de Google Analytics
-- 🎯 Integración de redes sociales
-- 📧 Configuración de email profesional
+1. **Simplicity** - Less is more
+2. **Functionality** - Everything has a purpose
+3. **Modernity** - Current designs
+4. **Accessibility** - Easy to use for everyone
+5. **Performance** - Fast and efficient
 
 ---
 
-## 📈 Por Qué Elegirnos
+## 📞 How We Work with Clients
 
-| Ventaja                      | Beneficio                                          |
-| ---------------------------- | -------------------------------------------------- |
-| 💰 **Precios Accesibles**    | Soluciones profesionales sin romper tu presupuesto |
-| ⚡ **Entrega Rápida**        | Tu sitio listo en tiempo récord                    |
-| 🎯 **Enfoque Personalizado** | Cada proyecto es único                             |
-| 📱 **Soporte Continuo**      | Estamos aquí para ayudarte                         |
-| 🚀 **Tecnología Actual**     | Usamos las mejores herramientas                    |
-
----
-
-## 🌟 Tipos de Proyectos
-
-### Ideal Para:
-
-- ✅ Pequeñas empresas locales
-- ✅ Profesionales independientes
-- ✅ Startups y emprendimientos
-- ✅ Portafolios personales
-- ✅ Páginas de servicios
-- ✅ Sitios informativos
-- ✅ Landing pages para campañas
-
-### No Ideal Para:
-
-- ❌ E-commerce complejos
-- ❌ Aplicaciones web avanzadas
-- ❌ Plataformas con backend complejo
-- ❌ Sistemas de gestión empresarial
+1. **Initial Consultation** - We listen to your needs
+2. **Proposal** - We define scope and budget
+3. **Development** - We create your website
+4. **Revisions** - We adjust according to feedback
+5. **Launch** - We publish your site
+6. **Support** - We accompany you post-launch
 
 ---
 
-## 📚 Recursos y Herramientas
+## 🔧 Additional Services
 
-Trabajamos con las mejores herramientas gratuitas y de código abierto:
+- 🎨 Color palette selection
+- 📝 Content optimization
+- 🔍 Basic SEO
+- 📊 Google Analytics configuration
+- 🎯 Social media integration
+- 📧 Professional email configuration
+
+---
+
+## 📈 Why Choose Us
+
+| Advantage                    | Benefit                                             |
+| ---------------------------- | --------------------------------------------------- |
+| 💰 **Affordable Prices**     | Professional solutions without breaking your budget |
+| ⚡ **Fast Delivery**         | Your site ready in record time                      |
+| 🎯 **Personalized Approach** | Each project is unique                              |
+| 📱 **Continuous Support**    | We are here to help you                             |
+| 🚀 **Current Technology**    | We use the best tools                               |
+
+---
+
+## 🌟 Types of Projects
+
+### Ideal For:
+
+- ✅ Small local businesses
+- ✅ Independent professionals
+- ✅ Startups and entrepreneurs
+- ✅ Personal portfolios
+- ✅ Services pages
+- ✅ Informational sites
+- ✅ Landing pages for campaigns
+
+### Not Ideal For:
+
+- ❌ Complex E-commerce
+- ❌ Advanced web applications
+- ❌ Platforms with complex backend
+- ❌ Enterprise management systems
+
+---
+
+## 📚 Resources and Tools
+
+We work with the best free and open source tools:
 
 - **Editor**: VS Code
-- **Control de Versiones**: Git & GitHub
-- **Formularios**: Formspree.io
+- **Version Control**: Git & GitHub
+- **Forms**: Formspree.io
 - **Hosting**: GitHub Pages
-- **Diseño**: Figma (opcional para mockups)
-- **Imágenes**: Unsplash, Pexels
-- **Íconos**: Font Awesome, Heroicons
+- **Design**: Figma (optional for mockups)
+- **Images**: Unsplash, Pexels
+- **Icons**: Font Awesome, Heroicons
 
 ---
 
-## 📖 Documentación y Estándares
+## 📖 Documentation and Standards
 
-Todos nuestros proyectos incluyen:
+All our projects include:
 
-- 📝 README detallado
-- 💬 Código comentado
-- 📋 Guía de mantenimiento
-- 🎨 Guía de estilo (cuando aplica)
-- 📞 Información de contacto para soporte
-
----
-
-## 🎓 Aprendizaje Continuo
-
-Como desarrolladores en crecimiento, estamos constantemente:
-
-- 📚 Aprendiendo nuevas tecnologías
-- 🔄 Mejorando nuestras prácticas
-- 🎨 Explorando tendencias de diseño
-- 💡 Implementando mejores soluciones
+- 📝 Detailed README
+- 💬 Commented code
+- 📋 Maintenance guide
+- 🎨 Style guide (when applicable)
+- 📞 Contact information for support
 
 ---
 
-## 📬 Contacto
+## 🎓 Continuous Learning
 
-¿Tienes un proyecto en mente? ¡Hablemos!
+As growing developers, we are constantly:
+
+- 📚 Learning new technologies
+- 🔄 Improving our practices
+- 🎨 Exploring design trends
+- 💡 Implementing better solutions
+
+---
+
+## 📬 Contact
+
+Have a project in mind? Let's talk!
 
 - 📧 Email: [gpwebstudio12@gmail.com]
 - 🌐 Web: [GPWebStudio.github.io]
@@ -307,28 +307,28 @@ Como desarrolladores en crecimiento, estamos constantemente:
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-Los proyectos individuales pueden tener diferentes licencias según las necesidades del cliente. Consulta cada repositorio para detalles específicos.
+Individual projects may have different licenses depending on client needs. Consult each repository for specific details.
 
 ---
 
-## 🙏 Agradecimientos
+## 🙏 Acknowledgments
 
-Agradecemos a todas las herramientas y servicios que hacen posible nuestro trabajo:
+We thank all the tools and services that make our work possible:
 
-- GitHub Pages por el hosting gratuito
-- Formspree por la gestión de formularios
-- La comunidad de desarrollo web por recursos y apoyo
+- GitHub Pages for free hosting
+- Formspree for form management
+- The web development community for resources and support
 
 ---
 
 <div align="center">
 
-### ⭐ Si te gusta nuestro trabajo, no olvides dar una estrella a nuestros repositorios
+### ⭐ If you like our work, don't forget to star our repositories
 
-**Hecho con ❤️ por GP Web Studio**
+**Made with ❤️ by GP Web Studio**
 
-[🔝 Volver arriba](#-gp-web-studio)
+[🔝 Back to top](#-gp-web-studio)
 
 </div>
