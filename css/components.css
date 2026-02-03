@@ -467,6 +467,7 @@
     justify-content: center;
     gap: var(--space-1);
     margin-bottom: var(--space-2);
+    flex-wrap: nowrap;
 }
 
 .price-currency {
@@ -476,13 +477,14 @@
 }
 
 .price-amount {
-    font-size: var(--font-size-5xl);
+    font-size: clamp(1.5rem, 5vw, var(--font-size-5xl));
     font-weight: var(--font-weight-extrabold);
     line-height: 1;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    white-space: nowrap;
 }
 
 .price-period {
