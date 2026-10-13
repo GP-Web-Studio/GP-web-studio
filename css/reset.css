@@ -38,8 +38,8 @@ body {
     line-height: var(--line-height-normal);
     font-family: var(--font-family-base);
     font-size: var(--font-size-base);
-    color: var(--color-gray-700);
-    background-color: var(--color-white);
+    color: var(--color-gray-200);
+    background-color: #000000;
     overflow-x: hidden;
 }
 
