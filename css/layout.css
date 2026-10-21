@@ -1238,3 +1238,163 @@
 
 .back-to-top.visible { opacity: 1; visibility: visible; }
 .back-to-top:hover { transform: translateY(-4px); box-shadow: var(--glow-blue); }
+
+/* ══════════════════════════════════════════
+   WHATSAPP FLOATING BUTTON
+   ══════════════════════════════════════════ */
+
+/* Keyframe: anillo de pulso */
+@keyframes wa-pulse {
+  0%   { transform: scale(1);   opacity: 0.7; }
+  70%  { transform: scale(1.9); opacity: 0; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+
+/* Keyframe: bob vertical suave (siempre activo) */
+@keyframes wa-bob {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+.wa-btn {
+  /* Posicion fija — izquierda, sobre el back-to-top */
+  position: fixed;
+  bottom: calc(var(--sp-6) + 60px); /* encima del back-to-top */
+  right: var(--sp-6);
+  z-index: var(--z-header);
+
+  /* Layout del boton */
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow: hidden;
+
+  /* Tamano base = solo el icono circular */
+  width: 52px;
+  height: 52px;
+  border-radius: var(--r-full);
+
+  /* Colores: tono verde-azul que mezcla WA con la paleta */
+  background: linear-gradient(135deg, #1ebe6a 0%, #0eb85a 50%, #0aa04e 100%);
+  color: #fff;
+
+  /* Borde sutil con glow brand */
+  border: 1.5px solid rgba(30, 190, 106, 0.4);
+  box-shadow:
+    0 4px 24px rgba(10, 160, 78, 0.45),
+    0 0 0 0 rgba(30, 190, 106, 0.35);
+
+  /* Transicion de expansion */
+  transition:
+    width var(--t-base),
+    border-radius var(--t-base),
+    box-shadow var(--t-base),
+    background var(--t-base),
+    transform var(--t-base);
+
+  /* Bob animacion base */
+  animation: wa-bob 3.5s ease-in-out infinite;
+
+  text-decoration: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Estado: visibilidad controlada por JS */
+.wa-btn {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+}
+
+.wa-btn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Hover: expande el boton con el label */
+.wa-btn:hover {
+  width: 220px;
+  border-radius: var(--r-xl);
+  background: linear-gradient(135deg, #22d47a 0%, #12c96a 50%, #0eb85a 100%);
+  box-shadow:
+    0 8px 32px rgba(10, 160, 78, 0.55),
+    0 0 60px rgba(30, 190, 106, 0.20);
+  animation-play-state: paused; /* pausa el bob en hover */
+}
+
+/* Scroll-driven: el JS mueve el boton ligeramente con translateY via CSS var */
+.wa-btn.scroll-moved {
+  /* JS setea --wa-y como CSS variable inline */
+  transform: translateY(var(--wa-y, 0px));
+}
+
+.wa-btn.visible.scroll-moved {
+  transform: translateY(var(--wa-y, 0px));
+}
+
+/* Anillo de pulso */
+.wa-btn__pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(30, 190, 106, 0.6);
+  animation: wa-pulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  pointer-events: none;
+}
+
+.wa-btn:hover .wa-btn__pulse {
+  animation-play-state: paused;
+}
+
+/* Icono centrado */
+.wa-btn__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 52px;      /* igual que el boton */
+  height: 52px;
+  transition: transform var(--t-base);
+}
+
+.wa-btn:hover .wa-btn__icon {
+  transform: scale(1.08);
+}
+
+/* Label oculto hasta hover */
+.wa-btn__label {
+  white-space: nowrap;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  color: #fff;
+  opacity: 0;
+  max-width: 0;
+  overflow: hidden;
+  transition:
+    opacity var(--t-base),
+    max-width var(--t-base);
+  padding-right: var(--sp-4);
+  letter-spacing: -0.01em;
+}
+
+.wa-btn:hover .wa-btn__label {
+  opacity: 1;
+  max-width: 180px;
+}
+
+/* Mobile: siempre visible, sin necesidad de scroll */
+@media (max-width: 767px) {
+  .wa-btn {
+    bottom: var(--sp-6);
+    right: var(--sp-6);
+    /* En mobile el back-to-top se pone a la izquierda */
+  }
+
+  .back-to-top {
+    right: auto;
+    left: var(--sp-6);
+  }
+}
+

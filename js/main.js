@@ -104,6 +104,71 @@
     });
   }
 
+  /* ── WhatsApp floating button ───────────── */
+  const waBtn = document.getElementById('wa-btn');
+
+  if (waBtn) {
+    // Muestra el boton despues de 3s o al bajar 200px
+    let waShown = false;
+
+    const showWa = () => {
+      if (!waShown) {
+        waShown = true;
+        waBtn.classList.add('visible');
+      }
+    };
+
+    // Timer de 3 segundos
+    setTimeout(showWa, 3000);
+
+    // O al scrollear 200px
+    const waScrollTrigger = () => {
+      if (window.scrollY > 200) showWa();
+    };
+    window.addEventListener('scroll', waScrollTrigger, { passive: true });
+
+    // ── Efecto parallax con scroll ──
+    // El boton se mueve suavemente hacia arriba / abajo
+    // segun la velocidad de scroll (maximo ±18px)
+    let lastScrollY   = window.scrollY;
+    let currentOffset = 0;
+    let targetOffset  = 0;
+    let rafId         = null;
+    let isHovered     = false;
+
+    waBtn.addEventListener('mouseenter', () => { isHovered = true; });
+    waBtn.addEventListener('mouseleave', () => { isHovered = false; });
+
+    const updateWaPosition = () => {
+      const scrollY   = window.scrollY;
+      const delta     = scrollY - lastScrollY;
+      lastScrollY     = scrollY;
+
+      // Genera desplazamiento proporcional al delta del scroll
+      targetOffset = Math.max(-18, Math.min(18, targetOffset + delta * 0.25));
+
+      // Suaviza hacia 0 cuando no hay scroll
+      targetOffset *= 0.88;
+
+      // Interpola suavemente
+      currentOffset += (targetOffset - currentOffset) * 0.14;
+
+      // Solo aplica si no esta en hover (para no romper el tooltip expandido)
+      if (!isHovered) {
+        waBtn.classList.add('scroll-moved');
+        waBtn.style.setProperty('--wa-y', currentOffset.toFixed(2) + 'px');
+      } else {
+        waBtn.classList.remove('scroll-moved');
+        waBtn.style.removeProperty('--wa-y');
+      }
+
+      rafId = requestAnimationFrame(updateWaPosition);
+    };
+
+    // Inicia el loop de animacion
+    rafId = requestAnimationFrame(updateWaPosition);
+  }
+
   /* ── Contact form handling ─────────────── */
   const form   = document.getElementById('contact-form');
   const submit = document.getElementById('contact-submit');
