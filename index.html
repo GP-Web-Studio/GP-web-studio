@@ -121,17 +121,17 @@
             </div>
 
             <div class="hero__stats anim-fade-up anim-fade-up-d4" id="hero-stats">
-              <div class="hero__stat" id="stat-projects">
-                <span class="hero__stat-num">120+</span>
-                <span class="hero__stat-label">Proyectos lanzados</span>
+              <div class="hero__stat" id="stat-conversion">
+                <span class="hero__stat-num">100%</span>
+                <span class="hero__stat-label">Enfoque en conversión</span>
               </div>
-              <div class="hero__stat" id="stat-clients">
-                <span class="hero__stat-num">98%</span>
-                <span class="hero__stat-label">Clientes satisfechos</span>
+              <div class="hero__stat" id="stat-chatbots">
+                <span class="hero__stat-num">24/7</span>
+                <span class="hero__stat-label">Chatbots con IA</span>
               </div>
-              <div class="hero__stat" id="stat-experience">
-                <span class="hero__stat-num">10+</span>
-                <span class="hero__stat-label">Años de experiencia</span>
+              <div class="hero__stat" id="stat-delivery">
+                <span class="hero__stat-num">&lt; 10d</span>
+                <span class="hero__stat-label">Entrega ágil</span>
               </div>
             </div>
 
@@ -187,9 +187,9 @@
         <div class="projects__header">
           <div>
             <p class="eyebrow">Nuestro trabajo</p>
-            <h2 class="projects__title reveal" id="projects-title">Proyectos destacados</h2>
+            <h2 class="projects__title reveal" id="projects-title">Trabajos realizados</h2>
           </div>
-          <a href="#contacto" class="btn btn-outlined reveal" id="projects-cta">Ver todos &rarr;</a>
+          <a href="#contacto" class="btn btn-outlined reveal" id="projects-cta">Iniciar tu proyecto &rarr;</a>
         </div>
 
         <div class="projects__inner">
@@ -197,60 +197,97 @@
           <!-- Cards -->
           <ul class="project-list" role="list">
 
-            <li class="project-card reveal" id="project-elevate" tabindex="0" role="article" aria-label="Proyecto ELEVATE">
+            <!-- Proyecto 1: Servicio de Limpieza (Real) -->
+            <li class="project-card reveal" id="project-cleaning" tabindex="0" role="article" aria-label="Proyecto de servicio de limpieza">
               <div class="project-card__info">
-                <div class="project-card__name">ELEVATE</div>
-                <div class="project-card__type">Plataforma SaaS</div>
+                <div class="project-card__name">A&amp;A ServiGroup LLC</div>
+                <div class="project-card__type">Landing page / Sitio de servicios de limpieza</div>
+                <p class="project-card__desc">
+                  Landing page profesional para un servicio de limpieza en Uruguay. Enfocada en generar consultas por WhatsApp y mostrar claramente los servicios, zonas de cobertura y beneficios.
+                </p>
+                <div class="project-card__tags">
+                  <span class="project-card__tag">Landing page</span>
+                  <span class="project-card__tag">WhatsApp Directo</span>
+                  <span class="project-card__tag">Diseño Responsive</span>
+                  <span class="project-card__tag">Uruguay</span>
+                </div>
               </div>
-              <div class="project-card__arrow" aria-hidden="true">
+              <a
+                href="https://servigroupllc.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card__arrow"
+                aria-label="Ver sitio web de A&A ServiGroup LLC"
+                id="link-project-cleaning"
+              >
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
                   <path d="M3 13L13 3M13 3H6M13 3V10"/>
+                </svg>
+              </a>
+            </li>
+
+            <!-- Espacio para Proyecto 2 (Próximo MVP) -->
+            <!-- Puedes duplicar la estructura de la card superior cuando cargues tu segundo proyecto -->
+            <li class="project-card project-card--slot reveal" id="project-slot-1" role="article" aria-label="Espacio reservado para próximo proyecto real">
+              <div class="project-card__info">
+                <div class="project-card__name">
+                  Próximo Proyecto <span class="project-card__status">MVP en preparación</span>
+                </div>
+                <div class="project-card__type">Espacio reservado para tu segundo proyecto real</div>
+                <p class="project-card__desc">
+                  Nuevo desarrollo web enfocado en conversión y experiencia de usuario. En breve se publicará con su demo en vivo y resultados.
+                </p>
+                <div class="project-card__tags">
+                  <span class="project-card__tag">En preparación</span>
+                </div>
+              </div>
+              <div class="project-card__arrow project-card__arrow--slot" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 5v14M5 12h14"/>
                 </svg>
               </div>
             </li>
 
-            <li class="project-card reveal" id="project-aurora" tabindex="0" role="article" aria-label="Proyecto AURORA">
+            <!-- Espacio para Proyecto 3 (Próximo MVP) -->
+            <!-- Puedes duplicar la estructura de la card superior cuando cargues tu tercer proyecto -->
+            <li class="project-card project-card--slot reveal" id="project-slot-2" role="article" aria-label="Espacio reservado para próximo proyecto real">
               <div class="project-card__info">
-                <div class="project-card__name">AURORA</div>
-                <div class="project-card__type">Identidad de marca</div>
+                <div class="project-card__name">
+                  Próximo Proyecto <span class="project-card__status">MVP en preparación</span>
+                </div>
+                <div class="project-card__type">Espacio reservado para tu tercer proyecto real</div>
+                <p class="project-card__desc">
+                  Nuevo desarrollo web con asistente virtual inteligente. En breve se publicará con su demo en vivo y resultados.
+                </p>
+                <div class="project-card__tags">
+                  <span class="project-card__tag">En preparación</span>
+                </div>
               </div>
-              <div class="project-card__arrow" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-                  <path d="M3 13L13 3M13 3H6M13 3V10"/>
-                </svg>
-              </div>
-            </li>
-
-            <li class="project-card reveal" id="project-obsidian" tabindex="0" role="article" aria-label="Proyecto OBSIDIAN">
-              <div class="project-card__info">
-                <div class="project-card__name">OBSIDIAN</div>
-                <div class="project-card__type">Sitio corporativo</div>
-              </div>
-              <div class="project-card__arrow" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-                  <path d="M3 13L13 3M13 3H6M13 3V10"/>
+              <div class="project-card__arrow project-card__arrow--slot" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 5v14M5 12h14"/>
                 </svg>
               </div>
             </li>
 
           </ul>
 
-          <!-- Stats block -->
+          <!-- Stats / Enfoque de valor -->
           <div class="stats-block">
 
-            <div class="stat-item reveal" id="stat-block-projects">
-              <span class="stat-item__num">120+</span>
-              <span class="stat-item__label">Proyectos lanzados</span>
+            <div class="stat-item reveal" id="stat-block-conversion">
+              <span class="stat-item__num">100%</span>
+              <span class="stat-item__label">Diseño enfocado en conversión y ventas</span>
             </div>
 
-            <div class="stat-item reveal" id="stat-block-clients">
-              <span class="stat-item__num">98%</span>
-              <span class="stat-item__label">Clientes satisfechos</span>
+            <div class="stat-item reveal" id="stat-block-chatbots">
+              <span class="stat-item__num">24/7</span>
+              <span class="stat-item__label">Atención y captura de leads con WhatsApp</span>
             </div>
 
-            <div class="stat-item reveal" id="stat-block-experience">
-              <span class="stat-item__num">10+</span>
-              <span class="stat-item__label">Años de experiencia</span>
+            <div class="stat-item reveal" id="stat-block-delivery">
+              <span class="stat-item__num">&lt; 10d</span>
+              <span class="stat-item__label">Entrega ágil y soporte personalizado</span>
             </div>
 
           </div>
